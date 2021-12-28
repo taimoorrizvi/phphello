@@ -1,5 +1,6 @@
 FROM php:7.0-apache
-COPY src/ /var/www/html
+#COPY . /var/www/php
+COPY src/ /var/www/php
 
 #EXPOSE 8081
 
